@@ -8,11 +8,9 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/semipia/papercoin/blockchain"
-	"github.com/semipia/papercoin/utils"
+	"github.com/kyeongweonpark/papercoin/blockchain"
+	"github.com/kyeongweonpark/papercoin/utils"
 )
-
-// import "github.com/semipia/papercoin/explorer"
 
 var port string
 

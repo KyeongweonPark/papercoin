@@ -1,7 +1,10 @@
 package main
 
-import "github.com/semipia/papercoin/cli"
+import (
+	"github.com/kyeongweonpark/papercoin/blockchain"
+	// "github.com/kyeongweonpark/papercoin/cli"
+)
 
 func main() {
-	cli.Start()
+	blockchain.Blockchain()
 }

@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/semipia/papercoin/explorer"
-	"github.com/semipia/papercoin/rest"
+	"github.com/kyeongweonpark/papercoin/explorer"
+	"github.com/kyeongweonpark/papercoin/rest"
 )
 
-// import	"github.com/semipia/papercoin/rest"
+// import	"github.com/kyeongweonpark/papercoin/rest"
 
-// import "github.com/semipia/papercoin/explorer"
+// import "github.com/kyeongweonpark/papercoin/explorer"
 
 func usage() {
 	fmt.Printf("Welcome to 페이퍼코인\n\n")
