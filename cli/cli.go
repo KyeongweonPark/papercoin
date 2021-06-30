@@ -4,6 +4,7 @@ import (
 	"flag"
 	"fmt"
 	"os"
+	"runtime"
 
 	"github.com/kyeongweonpark/papercoin/explorer"
 	"github.com/kyeongweonpark/papercoin/rest"
@@ -18,7 +19,7 @@ func usage() {
 	fmt.Printf("use the following flags:\n\n")
 	fmt.Printf("-port=4000:	 Set the PORT of the server\n")
 	fmt.Printf("-mode=rest:  Choose between 'html' and 'rest' \n\n")
-	os.Exit(0)
+	runtime.Goexit()
 }
 
 func Start() {

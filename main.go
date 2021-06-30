@@ -1,10 +1,12 @@
 package main
 
 import (
-	"github.com/kyeongweonpark/papercoin/blockchain"
-	// "github.com/kyeongweonpark/papercoin/cli"
+	"github.com/kyeongweonpark/papercoin/cli"
+	"github.com/kyeongweonpark/papercoin/db"
 )
 
 func main() {
-	blockchain.Blockchain()
+	defer db.Close()
+	cli.Start()
+
 }
