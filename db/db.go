@@ -1,8 +1,8 @@
 package db
 
 import (
-	"github.com/boltdb/bolt"
 	"github.com/kyeongweonpark/papercoin/utils"
+	bolt "go.etcd.io/bbolt"
 )
 
 const (
